@@ -10,6 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:felixmaathz/felixmaathz.github.io.git master:gh-pages
+git push -f git@github.com:felixmaathz/publish.git master:gh-pages
 cd -
 chmod +x deploy.sh
